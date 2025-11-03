@@ -1,1 +1,11 @@
+check Python version
+python --version
+
+create virtual environment
+python -m venv venv
+
+activate virtual environment
+venv\Scripts\activate
+
+install library
 pip install pyodbc pandas gspread google-auth openpyxl
